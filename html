@@ -1,0 +1,23 @@
+green="\033[32;1m"
+yellow="\033[33;1m"
+indigo="\033[34;1m"
+red="\033[35;1m"
+grean="\033[37;1m"
+cyan="\033[36;1m"
+white="\033[39;1m"
+echo $cyan
+date
+echo $grean"_____________________________________________________"
+echo $indigo" ¥"$red"+"$green"¥Author      : NOTTHING		"
+echo $indigo" ¥"$red"+"$green"¥team        : ACTION INFINITY TEAM "
+echo $indigo" ¥"$red"+"$green"¥thanks to   : Tn. CHA0S - Mr joey - Mr.clown- papa "
+echo $indigo" ¥"$red"+"$green"¥thanks      : BLACK VENOM CYBER"
+echo $grean"_____________________________________________________"
+figlet -f shadow Nyolong html
+echo $green "Masukan Target !!!! "
+echo $white "╭─"$green"NOTTHING@localhost"$indigo" ~/System"$white
+read -p " ╰─$ "  target
+echo $green "Simpan dengan nama??(ex: script.html)"
+echo $white "╭─"$green"NOTTHING@localhost"$indigo" ~/System"$white
+read -p " ╰─$ " simpan
+curl -o $simpan $target
